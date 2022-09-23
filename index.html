@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/pratica-2-dom.js"></script>
+    <link rel="stylesheet" href="/css/simple-grid.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" href="https://bemach1.com.br/wp-content/uploads/2022/03/cropped-Logo-Mach-Favicon-1-32x32.png">
+    <title>o que é java Script?</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="col-12">
+        
+            <div class="menu-topo">
+                <ul>
+                    <li><a href="#">ACHADOS</a></li>
+                    <li><a href="#">COMUNIDADES</a></li>
+                    <li><a href="#">APPS</a></li>
+                    <li><a href="#">CELULAR</a></li>
+                    <li><a href="#">JOGOS</a></li>
+                    <li><a href="#">INTERNET</a></li>
+                    <li><a href="#">MAIS</a></li>
+                  
+                </ul>
+            </div>
+            <div class="imagem-topo">
+                <img id="notebook" src="/assets/imagens/clement-helardot-95YRwf6CNw8-unsplash-1-scaled-e1611956600834-700x394.jpg">
+            </div>
+        
+      
+    </header>
+<main class="col-12">
+    <h1>O que é JavaScript?</h1>
+    <p>O JavaScript é uma linguagem de programação interpretada criada em meados da década de 90 pela Netscape Communications. Seu objetivo era atender à demanda crescente por sites mais interativos e dinâmicos, já que, até então, as páginas HTML continham pouca ou nenhuma interatividade além dos hyperlinks.</p>
+    <p>O JavaScript permite controlar os elementos de uma página em tempo real, sem necessariamente ter que receber os dados ou uma resposta do servidor. Por exemplo, é possível atualizar o conteúdo de uma página web sem precisar recarregá-la por completo ao preencher um formulário.</p>
+    <p>É uma linguagem multiparadigma (programação funcional e imperativa), versátil, com tipagem dinâmica (não é necessário definir os tipos das variáveis ao declará-las), sintaxe acessível, e recursos avançados como orientação a objetos e APIs para trabalhar com textos, matrizes, datas e expressões regulares. Atualmente, segue as especificações ECMAScript, que visam garantir o suporte e o funcionamento da linguagem entre os diferentes navegadores.</p>
+</main>
+    <footer>feito por mach1-2022</footer>
+</body>
+<script>
+  let quantidadeTags = document.body.childElementCount ;
+  function verifica(qntTags) {
+
+    if (qntTags > 5) {
+      return true;
+    } else {
+      return false;
+    }
+  }
+  console.log(verifica(quantidadeTags));
+  
+  let List = document.querySelectorAll("p"); 
+console.log(List);
+
+</script>
+</html>
